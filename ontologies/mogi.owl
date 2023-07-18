@@ -182,6 +182,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#localisation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#localisation"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#data_certitude -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#data_certitude">
@@ -393,6 +409,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurence">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#feature"/>
+        <rdfs:comment>A feature stating the existence of a =n observable. If it is true, it means that the observable is present in the associated location, while when it is negative it confirms that the observable is certainly absent from this location. On the other hand, if it is empty, both possibilities could be true.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#orientation -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#orientation">
@@ -485,30 +510,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#which_limb">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#evaluation_properties"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#x -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#x">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#localisation"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#y -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#y">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#localisation"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#z -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#z">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#localisation"/>
     </owl:DatatypeProperty>
     
 
@@ -952,19 +953,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#has_Feature"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#X"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#has_Feature"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Y"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#has_Feature"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Z"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1039,29 +1034,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#X -->
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#X">
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Localisation"/>
-        <rdfs:property_name>x</rdfs:property_name>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Y -->
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Y">
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Localisation"/>
-        <rdfs:property_name>y</rdfs:property_name>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Z -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Z">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Localisation"/>
-        <rdfs:property_name>z</rdfs:property_name>
     </owl:Class>
     
 
@@ -1081,12 +1065,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D1">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</z>
     </owl:NamedIndividual>
     
 
@@ -1095,9 +1079,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D11">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</z>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</coordinate_label>
     </owl:NamedIndividual>
     
 
@@ -1106,12 +1090,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D2">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</z>
     </owl:NamedIndividual>
     
 
@@ -1120,9 +1104,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D22">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</z>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</coordinate_label>
     </owl:NamedIndividual>
     
 
@@ -1131,12 +1115,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D3">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</z>
     </owl:NamedIndividual>
     
 
@@ -1145,12 +1129,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D4">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</z>
     </owl:NamedIndividual>
     
 
@@ -1159,9 +1143,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D44">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</z>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate_label>
     </owl:NamedIndividual>
     
 
@@ -1170,12 +1154,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D5">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</z>
     </owl:NamedIndividual>
     
 
@@ -1184,12 +1168,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D6">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</z>
     </owl:NamedIndividual>
     
 
@@ -1198,12 +1182,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D7">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</z>
     </owl:NamedIndividual>
     
 
@@ -1212,9 +1196,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D77">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</z>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</coordinate_label>
     </owl:NamedIndividual>
     
 
@@ -1223,13 +1207,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D8">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</coordinate>
+        <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate>
+        <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate_label>
         <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</dip>
         <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</dip_dir>
         <geology>Trias_Base</geology>
-        <x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</x>
-        <y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</y>
-        <z rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</z>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate">
+        <rdfs:property_name>x</rdfs:property_name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label">
+        <rdfs:property_name>y</rdfs:property_name>
+    </rdf:Description>
     
 
 
