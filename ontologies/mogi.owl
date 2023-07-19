@@ -413,6 +413,10 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurence">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#feature"/>
+<<<<<<< Updated upstream
+=======
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+>>>>>>> Stashed changes
         <rdfs:comment>A feature stating the existence of a =n observable. If it is true, it means that the observable is present in the associated location, while when it is negative it confirms that the observable is certainly absent from this location. On the other hand, if it is empty, both possibilities could be true.</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -560,6 +564,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Complex_Structural_Interpretation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Interpretation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Coordinate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Coordinate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Localisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Coordinate_Label -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Coordinate_Label">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Localisation"/>
     </owl:Class>
     
 
@@ -859,6 +879,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Occurence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Occurence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Feature"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Orientation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Orientation">
@@ -952,6 +980,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+<<<<<<< Updated upstream
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#has_Feature"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate"/>
             </owl:Restriction>
@@ -964,6 +993,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+=======
+>>>>>>> Stashed changes
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#has_Possible_Interpretation"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Surface_Belongs_To_Surface"/>
             </owl:Restriction>
@@ -1034,6 +1065,7 @@
     
 
 
+<<<<<<< Updated upstream
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate">
@@ -1050,6 +1082,8 @@
     
 
 
+=======
+>>>>>>> Stashed changes
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1079,9 +1113,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D11">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+<<<<<<< Updated upstream
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</coordinate>
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</coordinate>
         <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</coordinate_label>
+=======
+>>>>>>> Stashed changes
     </owl:NamedIndividual>
     
 
@@ -1104,9 +1141,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D22">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+<<<<<<< Updated upstream
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</coordinate>
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</coordinate>
         <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</coordinate_label>
+=======
+>>>>>>> Stashed changes
     </owl:NamedIndividual>
     
 
@@ -1143,9 +1183,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D44">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+<<<<<<< Updated upstream
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</coordinate>
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
         <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</coordinate_label>
+=======
+>>>>>>> Stashed changes
     </owl:NamedIndividual>
     
 
@@ -1196,9 +1239,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#D77">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+<<<<<<< Updated upstream
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</coordinate>
         <coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</coordinate>
         <coordinate_label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</coordinate_label>
+=======
+>>>>>>> Stashed changes
     </owl:NamedIndividual>
     
 
