@@ -191,6 +191,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord1_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord1_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord2 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord2">
@@ -200,11 +209,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord2_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord2_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord3 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord3">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_value"/>
         <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord3_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coord3_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -231,7 +258,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#data_certitude">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#certitude"/>
-        <rdfs:comment>the certaintny of the data and their occurence, this is strictly related to  aquisition procedures and processes</rdfs:comment>
+        <rdfs:comment>the certaintny of the data and their occurrence, this is strictly related to  aquisition procedures and processes</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -401,33 +428,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label1 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label1">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label2 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label2">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label3 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#label3">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#coordinate_label"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#level_of_interpretation -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#level_of_interpretation">
@@ -455,9 +455,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurence -->
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurrence -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurence">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#occurrence">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#feature"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>A feature stating the existence of a =n observable. If it is true, it means that the observable is present in the associated location, while when it is negative it confirms that the observable is certainly absent from this location. On the other hand, if it is empty, both possibilities could be true.</rdfs:comment>
@@ -1066,6 +1066,32 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Unit_Repitition">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Structure_Expression"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Dtest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Dtest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#Ponctual_Observation"/>
+        <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</coord1>
+        <coord1_label>X</coord1_label>
+        <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</coord2>
+        <coord2_label>Y</coord2_label>
+        <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</coord3>
+        <coord3_label>Z</coord3_label>
+        <occurrence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</occurrence>
+    </owl:NamedIndividual>
     
 
 
