@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542">
+    <Prefix name="" IRI="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,6 +17,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Chevron_Fold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deformed_Object"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fold"/>
@@ -36,28 +40,10 @@
         <Class IRI="#Geometric_Concept"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Length"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Localisation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Observation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Orientation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PointBased_Observation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Property"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Size"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Status"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stratigraphic_Part"/>
@@ -73,6 +59,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_For_Representing_Concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Observable"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_Possible_Explanation"/>
@@ -105,6 +94,9 @@
         <DataProperty IRI="#coordinate_value"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#deformed"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#dip"/>
     </Declaration>
     <Declaration>
@@ -112,6 +104,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#observable"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#occurrence"/>
@@ -128,6 +123,18 @@
     <Declaration>
         <DataProperty IRI="#stratigraphic_unit"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sp1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Axial_Surface"/>
         <Class IRI="#Geological_Concept"/>
@@ -135,6 +142,10 @@
     <SubClassOf>
         <Class IRI="#Chevron_Fold"/>
         <Class IRI="#Fold"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deformed_Object"/>
+        <Class IRI="#Geological_Concept"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fold"/>
@@ -153,32 +164,8 @@
         <Class IRI="#Geological_Concept"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Length"/>
-        <Class IRI="#Size"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Localisation"/>
-        <Class IRI="#Property"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Observation"/>
-        <Class IRI="#Geological_Concept"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Orientation"/>
-        <Class IRI="#Property"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#PointBased_Observation"/>
         <Class IRI="#Observation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Size"/>
-        <Class IRI="#Property"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Status"/>
-        <Class IRI="#Property"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stratigraphic_Part"/>
@@ -192,6 +179,38 @@
         <Class IRI="#Surface"/>
         <Class IRI="#Geometric_Concept"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#PointBased_Observation"/>
+        <NamedIndividual IRI="#o1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PointBased_Observation"/>
+        <NamedIndividual IRI="#o2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stratigraphic_Part"/>
+        <NamedIndividual IRI="#sp1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Observable"/>
+        <NamedIndividual IRI="#o1"/>
+        <NamedIndividual IRI="#sp1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Observable"/>
+        <NamedIndividual IRI="#sp1"/>
+        <NamedIndividual IRI="#sp1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordinate_label"/>
+        <NamedIndividual IRI="#o1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#length"/>
+        <NamedIndividual IRI="#o1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#explain"/>
         <ObjectProperty IRI="#is_Explained_By"/>
@@ -221,6 +240,10 @@
         <DataProperty IRI="#property"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#deformed"/>
+        <DataProperty IRI="#property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#dip"/>
         <DataProperty IRI="#orientation"/>
     </SubDataPropertyOf>
@@ -244,6 +267,45 @@
         <DataProperty IRI="#size"/>
         <DataProperty IRI="#property"/>
     </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#deformed"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#observable"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>if stratigraphic_unit is deformed it means it is possibly folded</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Geological_Concept"/>
+                <Variable IRI="#x1"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#deformed"/>
+                <Variable IRI="#x1"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Deformed_Object"/>
+                <Variable IRI="#x1"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
 </Ontology>
 
 
