@@ -273,6 +273,10 @@
         <NamedIndividual IRI="#ax_suf1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Chevron_Fold"/>
+        <NamedIndividual IRI="#chv_f1"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Fold_Limb"/>
         <NamedIndividual IRI="#l1"/>
     </ClassAssertion>
