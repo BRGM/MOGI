@@ -58,9 +58,6 @@
         <ObjectProperty IRI="#explain"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_For_Representing_Concept"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#has_Observable"/>
     </Declaration>
     <Declaration>
@@ -68,6 +65,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_Property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Representation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_Structural_Parameter"/>
@@ -82,7 +82,7 @@
         <ObjectProperty IRI="#is_Property_Of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_Representing_Concept_Of"/>
+        <ObjectProperty IRI="#is_Representation_Of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_Structural_Parameter_Of"/>
@@ -109,9 +109,6 @@
         <DataProperty IRI="#length"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#observable"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#occurrence"/>
     </Declaration>
     <Declaration>
@@ -124,7 +121,19 @@
         <DataProperty IRI="#size"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#stratigraphic_unit"/>
+        <NamedIndividual IRI="#ax_suf1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chv_f1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#o1"/>
@@ -143,12 +152,40 @@
         <Class IRI="#Geological_Concept"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Axial_Surface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Representation"/>
+            <Class IRI="#Surface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Chevron_Fold"/>
         <Class IRI="#Fold"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Chevron_Fold"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#has_Structural_Parameter"/>
+            <Class IRI="#Axial_Surface"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chevron_Fold"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#has_Structural_Parameter"/>
+            <Class IRI="#Fold_Limb"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Deformed_Object"/>
         <Class IRI="#Geological_Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deformed_Object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Possible_Explanation"/>
+            <Class IRI="#Chevron_Fold"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fold"/>
@@ -167,21 +204,86 @@
         <Class IRI="#Geological_Concept"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Observable"/>
+            <Class IRI="#Geological_Concept"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PointBased_Observation"/>
         <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointBased_Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Observable"/>
+            <Class IRI="#Axial_Surface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointBased_Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Observable"/>
+            <Class IRI="#Stratigraphic_Part"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointBased_Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Possible_Explanation"/>
+            <Class IRI="#Stratigraphic_Part"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stratigraphic_Part"/>
         <Class IRI="#Geological_Concept"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Stratigraphic_Part"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Possible_Explanation"/>
+            <Class IRI="#Stratigraphic_Surface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stratigraphic_Part"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Representation"/>
+            <Class IRI="#Surface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Stratigraphic_Surface"/>
         <Class IRI="#Geological_Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stratigraphic_Surface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Representation"/>
+            <Class IRI="#Surface"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Surface"/>
         <Class IRI="#Geometric_Concept"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Axial_Surface"/>
+        <NamedIndividual IRI="#ax_suf1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fold_Limb"/>
+        <NamedIndividual IRI="#l1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fold_Limb"/>
+        <NamedIndividual IRI="#l2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fold_Limb"/>
+        <NamedIndividual IRI="#l3"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#PointBased_Observation"/>
         <NamedIndividual IRI="#o1"/>
@@ -195,6 +297,21 @@
         <NamedIndividual IRI="#sp1"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Structural_Parameter"/>
+        <NamedIndividual IRI="#chv_f1"/>
+        <NamedIndividual IRI="#ax_suf1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Structural_Parameter"/>
+        <NamedIndividual IRI="#chv_f1"/>
+        <NamedIndividual IRI="#l1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Structural_Parameter"/>
+        <NamedIndividual IRI="#chv_f1"/>
+        <NamedIndividual IRI="#l2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#has_Observable"/>
         <NamedIndividual IRI="#o1"/>
         <NamedIndividual IRI="#sp1"/>
@@ -204,23 +321,9 @@
         <NamedIndividual IRI="#sp1"/>
         <NamedIndividual IRI="#sp1"/>
     </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#coordinate_label"/>
-        <NamedIndividual IRI="#o1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#length"/>
-        <NamedIndividual IRI="#o1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
-    </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#explain"/>
         <ObjectProperty IRI="#is_Explained_By"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_For_Representing_Concept"/>
-        <ObjectProperty IRI="#is_Representing_Concept_Of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#has_Possible_Explanation"/>
@@ -229,6 +332,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#has_Property"/>
         <ObjectProperty IRI="#is_Property_Of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_Representation"/>
+        <ObjectProperty IRI="#is_Representation_Of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#has_Structural_Parameter"/>
@@ -277,13 +384,41 @@
     <FunctionalDataProperty>
         <DataProperty IRI="#deformed"/>
     </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#length"/>
+        <Class IRI="#Surface"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#occurrence"/>
+        <Class IRI="#PointBased_Observation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordinate_label"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordinate_value"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#deformed"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#observable"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <DataProperty IRI="#dip"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dip_dir"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#length"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#occurrence"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DLSafeRule>
         <Annotation>
