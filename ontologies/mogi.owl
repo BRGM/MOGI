@@ -103,6 +103,9 @@
         <DataProperty IRI="#dip_dir"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#influence_space"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#length"/>
     </Declaration>
     <Declaration>
@@ -252,6 +255,10 @@
         <DataProperty IRI="#orientation"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#influence_space"/>
+        <DataProperty IRI="#property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#length"/>
         <DataProperty IRI="#size"/>
     </SubDataPropertyOf>
@@ -267,6 +274,9 @@
         <DataProperty IRI="#size"/>
         <DataProperty IRI="#property"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#deformed"/>
+    </FunctionalDataProperty>
     <DataPropertyRange>
         <DataProperty IRI="#deformed"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
