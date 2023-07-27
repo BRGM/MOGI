@@ -163,6 +163,9 @@
         <NamedIndividual IRI="#sp1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#strati_test"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <SubClassOf>
@@ -318,6 +321,10 @@
         <Class IRI="#Stratigraphic_Part"/>
         <NamedIndividual IRI="#sp1"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stratigraphic_Surface"/>
+        <NamedIndividual IRI="#strati_test"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#has_Structural_Parameter"/>
         <NamedIndividual IRI="#chv_f1"/>
@@ -343,6 +350,11 @@
         <NamedIndividual IRI="#sp1"/>
         <NamedIndividual IRI="#sp1"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deformed"/>
+        <NamedIndividual IRI="#strati_test"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#explain"/>
         <ObjectProperty IRI="#is_Explained_By"/>

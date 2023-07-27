@@ -1,0 +1,286 @@
+Prefix(:=<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542>
+
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geometric_Concept>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface>))
+Declaration(Class(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Property_Of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Representation_Of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Structural_Parameter_Of>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>))
+Declaration(DataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ax_suf1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain>)
+
+InverseObjectProperties(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By>)
+
+# Object Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation>)
+
+InverseObjectProperties(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of>)
+
+# Object Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property>)
+
+InverseObjectProperties(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Property_Of>)
+
+# Object Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation>)
+
+InverseObjectProperties(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Representation_Of>)
+
+# Object Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter>)
+
+InverseObjectProperties(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Structural_Parameter_Of>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+FunctionalDataProperty(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed> xsd:boolean)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size>)
+DataPropertyDomain(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#length> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+DataPropertyDomain(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation>)
+DataPropertyRange(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence> xsd:boolean)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+
+# Data Property: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold> ObjectExactCardinality(1 <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface>))
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold> ObjectExactCardinality(2 <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting>)
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface>))
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part>))
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface>))
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept>)
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface> ObjectSomeValuesFrom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>))
+
+# Class: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface>)
+
+SubClassOf(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geometric_Concept>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ax_suf1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ax_suf1>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ax_suf1>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ax_suf1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Structural_Parameter> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#chv_f1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l2>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l2> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l2>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l2>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l3> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l3>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l3>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1>)
+
+# Individual: <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test> (<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test>)
+
+ClassAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test>)
+DataPropertyAssertion(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed> <http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test> "true"^^xsd:boolean)
+
+
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "if stratigraphic_unit is deformed it means it is possibly folded") Annotation(rdfs:label "S1") Body(ClassAtom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept> Variable(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1>)) DataPropertyAtom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed> Variable(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1>) "true"^^xsd:boolean))Head(ClassAtom(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Deformed_Object> Variable(<http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1>))))
+)
