@@ -88,6 +88,24 @@
         <ObjectProperty IRI="#is_Structural_Parameter_Of"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#coord1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coord1_label"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coord2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coord2_label"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coord3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coord3_label"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#coordinate_label"/>
     </Declaration>
     <Declaration>
@@ -346,6 +364,30 @@
         <ObjectProperty IRI="#is_Structural_Parameter_Of"/>
     </InverseObjectProperties>
     <SubDataPropertyOf>
+        <DataProperty IRI="#coord1"/>
+        <DataProperty IRI="#coordinate_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coord1_label"/>
+        <DataProperty IRI="#coordinate_label"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coord2"/>
+        <DataProperty IRI="#coordinate_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coord2_label"/>
+        <DataProperty IRI="#coordinate_label"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coord3"/>
+        <DataProperty IRI="#coordinate_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coord3_label"/>
+        <DataProperty IRI="#coordinate_label"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#coordinate_label"/>
         <DataProperty IRI="#property"/>
     </SubDataPropertyOf>
@@ -396,6 +438,30 @@
         <DataProperty IRI="#occurrence"/>
         <Class IRI="#PointBased_Observation"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord1"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord1_label"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord2"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord2_label"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord3"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coord3_label"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#coordinate_label"/>
         <Datatype abbreviatedIRI="xsd:string"/>
