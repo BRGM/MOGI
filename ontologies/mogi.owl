@@ -2,6 +2,9 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#"
      xml:base="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#"
+     xml:base="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -525,13 +528,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o1">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation"/>
         <untitled-ontology-542:has_Observable rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1"/>
-        <untitled-ontology-542:coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</untitled-ontology-542:coord1>
-        <untitled-ontology-542:coord1_label>X</untitled-ontology-542:coord1_label>
-        <untitled-ontology-542:coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</untitled-ontology-542:coord2>
-        <untitled-ontology-542:coord2_label>Y</untitled-ontology-542:coord2_label>
-        <untitled-ontology-542:coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</untitled-ontology-542:coord3>
-        <untitled-ontology-542:coord3_label>Z</untitled-ontology-542:coord3_label>
-        <untitled-ontology-542:occurrence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-542:occurrence>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#o2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation"/>
     </owl:NamedIndividual>
     
 
@@ -541,6 +545,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1">
         <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
         <untitled-ontology-542:has_Observable rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#sp1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#strati_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface"/>
+        <untitled-ontology-542:deformed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-542:deformed>
     </owl:NamedIndividual>
     
 
