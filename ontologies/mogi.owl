@@ -524,6 +524,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#individu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#individu"/>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#l1">
