@@ -539,6 +539,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation">
