@@ -394,6 +394,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#non_planar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#non_planar">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence">
