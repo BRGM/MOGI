@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542"
+         xmlns="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+         xmlns:swrl2="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542"/>
+
+<owl:ObjectProperty rdf:about="#explain">
+  <owl:inverseOf rdf:resource="#is_Explained_By"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Explained_By"/>
+
+<owl:ObjectProperty rdf:about="#has_Axial_Surface"/>
+
+<owl:ObjectProperty rdf:about="#has_Center"/>
+
+<owl:ObjectProperty rdf:about="#has_Fold_Axis"/>
+
+<owl:ObjectProperty rdf:about="#has_Limb1">
+  <owl:inverseOf rdf:resource="#is_Limb1_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Limb1_Of"/>
+
+<owl:ObjectProperty rdf:about="#has_Limb2">
+  <owl:inverseOf rdf:resource="#is_Limb2_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Limb2_Of"/>
+
+<owl:ObjectProperty rdf:about="#has_Neighbor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Node"/>
+
+<owl:ObjectProperty rdf:about="#has_Node0">
+  <rdfs:subPropertyOf rdf:resource="#has_Node"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Node1">
+  <rdfs:subPropertyOf rdf:resource="#has_Node"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Node2">
+  <rdfs:subPropertyOf rdf:resource="#has_Node"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Node3">
+  <rdfs:subPropertyOf rdf:resource="#has_Node"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Normal"/>
+
+<owl:ObjectProperty rdf:about="#has_Observable">
+  <owl:inverseOf rdf:resource="#is_Observation_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Observation_Of"/>
+
+<owl:ObjectProperty rdf:about="#has_Occurrence_Space"/>
+
+<owl:ObjectProperty rdf:about="#has_Part"/>
+
+<owl:ObjectProperty rdf:about="#has_Possible_Explanation">
+  <owl:inverseOf rdf:resource="#is_Possible_Explanation_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Possible_Explanation_Of"/>
+
+<owl:ObjectProperty rdf:about="#has_Property">
+  <owl:inverseOf rdf:resource="#is_Property_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Property_Of"/>
+
+<owl:ObjectProperty rdf:about="#has_Representation">
+  <owl:inverseOf rdf:resource="#is_Representation_Of"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_Representation_Of"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To_Border"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To_Explained_Object"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To_Explaining_Object"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To_Part"/>
+
+<owl:ObjectProperty rdf:about="#is_Related_To_Representation"/>
+
+<owl:ObjectProperty rdf:about="#is_Structural_Parameter_Of"/>
+
+<owl:DatatypeProperty rdf:about="#coord1">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_value"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coordinate_value">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coord1_label">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_label"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coordinate_label">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coord2">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_value"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coord2_label">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_label"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coord3">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_value"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#coord3_label">
+  <rdfs:subPropertyOf rdf:resource="#coordinate_label"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#property"/>
+
+<owl:DatatypeProperty rdf:about="#deformed">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#dip">
+  <rdfs:subPropertyOf rdf:resource="#orientation"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#orientation">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#dip_dir">
+  <rdfs:subPropertyOf rdf:resource="#orientation"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#extended">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#influence_space">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#non_planar">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#occurrence">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+  <rdfs:domain rdf:resource="#PointBased_Observation"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#polarity">
+  <rdfs:subPropertyOf rdf:resource="#orientation"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#size">
+  <rdfs:subPropertyOf rdf:resource="#property"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+
+<owl:Class rdf:about="#PointBased_Observation">
+  <rdfs:subClassOf rdf:resource="#Observation"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Observable"/>
+      <owl:someValuesFrom rdf:resource="#Axial_Surface"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Observable"/>
+      <owl:someValuesFrom rdf:resource="#Stratigraphic_Part"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Possible_Explanation"/>
+      <owl:someValuesFrom rdf:resource="#Stratigraphic_Part"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Point"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Anomaly">
+  <rdfs:subClassOf rdf:resource="#Interpretation_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Interpretation_Concept"/>
+
+<owl:Class rdf:about="#Axial_Surface">
+  <rdfs:subClassOf rdf:resource="#Structural_Paramter"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Planar_Surface"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Structural_Paramter">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Planar_Surface">
+  <rdfs:subClassOf rdf:resource="#Surface"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chevron_Fold">
+  <rdfs:subClassOf rdf:resource="#Fold"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_Possible_Explanation_Of"/>
+      <owl:someValuesFrom rdf:resource="#DipVariationAnomaly"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Axial_Surface"/>
+      <owl:onClass rdf:resource="#Axial_Surface"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Axial_Surface"/>
+      <owl:onClass rdf:resource="#Fold_Axis"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Axial_Surface"/>
+      <owl:onClass rdf:resource="#Limbs_Intersection_Point"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Limb1"/>
+      <owl:onClass rdf:resource="#Fold_Limb"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Limb2"/>
+      <owl:onClass rdf:resource="#Fold_Limb"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Fold">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#DipVariationAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Possible_Explanation"/>
+      <owl:someValuesFrom rdf:resource="#Chevron_Fold"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Fold_Axis">
+  <rdfs:subClassOf rdf:resource="#Structural_Paramter"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Vector"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Limbs_Intersection_Point">
+  <rdfs:subClassOf rdf:resource="#Structural_Paramter"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Point"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Fold_Limb">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Complex_Surface">
+  <rdfs:subClassOf rdf:resource="#Surface"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Part"/>
+      <owl:onClass rdf:resource="#Planar_Surface"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Surface">
+  <rdfs:subClassOf rdf:resource="#Geometric_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#DippingStratigraphyAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Possible_Explanation"/>
+      <owl:someValuesFrom rdf:resource="#Chevron_Fold"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#DiscontinuousStratigraphyAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ExplanationAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Geological_Concept"/>
+
+<owl:Class rdf:about="#Vector">
+  <rdfs:subClassOf rdf:resource="#Geometric_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Folding">
+  <rdfs:subClassOf rdf:resource="#Geological_Setting"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Geological_Setting">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Geometric_Concept"/>
+
+<owl:Class rdf:about="#LimbsPolarityAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Point">
+  <rdfs:subClassOf rdf:resource="#Geometric_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Observation">
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Observable"/>
+      <owl:someValuesFrom rdf:resource="#Geological_Concept"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Occurrence_Space">
+  <rdfs:subClassOf rdf:resource="#Interpretation_Concept"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Voxel"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Voxel">
+  <rdfs:subClassOf rdf:resource="#Geometric_Concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Stratigraphic_Part">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Possible_Explanation"/>
+      <owl:someValuesFrom rdf:resource="#Stratigraphic_Part"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Surface"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_Possible_Explanation_Of"/>
+      <owl:someValuesFrom rdf:resource="#Observation"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_Possible_Explanation_Of"/>
+      <owl:someValuesFrom rdf:resource="#Stratigraphic_Part"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Possible_Explanation"/>
+      <owl:onClass rdf:resource="#Stratigraphic_Surface"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#PolarityAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<owl:Class rdf:about="#RepresentationAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Stratigraphic_Surface">
+  <rdfs:subClassOf rdf:resource="#Geological_Concept"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_Representation"/>
+      <owl:someValuesFrom rdf:resource="#Complex_Surface"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_Possible_Explanation_Of"/>
+      <owl:someValuesFrom rdf:resource="#Stratigraphic_Part"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#StratigraphyBorderAnomaly">
+  <rdfs:subClassOf rdf:resource="#Anomaly"/>
+</owl:Class>
+
+<swrl:Variable rdf:about="#x1"/>
+
+<swrl:Variable rdf:about="#st1"/>
+
+<swrl:Variable rdf:about="#f1"/>
+
+<Point rdf:about="#N1_0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N1_0"/>
+  <has_Center rdf:resource="#N1_0"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-5.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord3>
+</Point>
+
+<Point rdf:about="#N1_1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N1_1"/>
+  <has_Center rdf:resource="#N1_1"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</coord3>
+</Point>
+
+<Point rdf:about="#N1_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N1_2"/>
+  <has_Center rdf:resource="#N1_2"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</coord3>
+</Point>
+
+<Point rdf:about="#N1_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N1_3"/>
+  <has_Center rdf:resource="#N1_3"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-5.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord3>
+</Point>
+
+<Planar_Surface rdf:about="#surf_from_nodes1_rep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Node0 rdf:resource="#N1_0"/>
+  <has_Node1 rdf:resource="#N1_1"/>
+  <has_Node2 rdf:resource="#N1_2"/>
+  <has_Node3 rdf:resource="#N1_3"/>
+  <has_Representation rdf:resource="#N1_1"/>
+  <has_Representation rdf:resource="#N1_2"/>
+  <has_Representation rdf:resource="#N1_0"/>
+  <has_Representation rdf:resource="#N1_3"/>
+  <has_Center rdf:resource="#surf_from_nodes1_rep_center"/>
+  <has_Normal rdf:resource="#surf_from_nodes1_rep_normal"/>
+  <size rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8284271247461903</size>
+  <dip rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.0</dip>
+  <dip_dir rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">270.0</dip_dir>
+</Planar_Surface>
+
+<Point rdf:about="#surf_from_nodes1_rep_center">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#surf_from_nodes1_rep_center"/>
+  <has_Center rdf:resource="#surf_from_nodes1_rep_center"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord3>
+</Point>
+
+<Vector rdf:about="#surf_from_nodes1_rep_normal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#surf_from_nodes1_rep_normal"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.7071067811865476</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7071067811865476</coord3>
+</Vector>
+
+<Stratigraphic_Part rdf:about="#surf_from_nodes1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#surf_from_nodes1_rep"/>
+</Stratigraphic_Part>
+
+<Point rdf:about="#N2_0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N2_0"/>
+  <has_Center rdf:resource="#N2_0"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</coord3>
+</Point>
+
+<Point rdf:about="#N2_1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N2_1"/>
+  <has_Center rdf:resource="#N2_1"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord3>
+</Point>
+
+<Point rdf:about="#N2_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N2_2"/>
+  <has_Center rdf:resource="#N2_2"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.0</coord3>
+</Point>
+
+<Point rdf:about="#N2_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#N2_3"/>
+  <has_Center rdf:resource="#N2_3"/>
+  <coord1_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</coord1_label>
+  <coord2_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</coord2_label>
+  <coord3_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</coord3_label>
+  <coord1 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3.0</coord1>
+  <coord2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</coord2>
+  <coord3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</coord3>
+</Point>
+
+<Stratigraphic_Part rdf:about="#copy_of_surf_from_nodes1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_Representation rdf:resource="#copy_of_surf_from_nodes1_rep"/>
+</Stratigraphic_Part>
+
+<Planar_Surface rdf:about="#copy_of_surf_from_nodes1_rep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Planar_Surface>
+
+<swrl:Imp>
+  <swrl:body>
+    <swrl:AtomList>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#Anomaly"/>
+          <swrl:argument1 rdf:resource="#x1"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <swrl:AtomList>
+          <rdf:first>
+            <swrl:ClassAtom>
+              <swrl:classPredicate rdf:resource="#Stratigraphic_Part"/>
+              <swrl:argument1 rdf:resource="#st1"/>
+            </swrl:ClassAtom>
+          </rdf:first>
+          <rdf:rest>
+            <swrl:AtomList>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="#is_Related_To"/>
+                  <swrl:argument1 rdf:resource="#x1"/>
+                  <swrl:argument2 rdf:resource="#st1"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest>
+                <swrl:AtomList>
+                  <rdf:first>
+                    <swrl:ClassAtom>
+                      <swrl:classPredicate rdf:resource="#Fold"/>
+                      <swrl:argument1 rdf:resource="#f1"/>
+                    </swrl:ClassAtom>
+                  </rdf:first>
+                  <rdf:rest>
+                    <swrl:AtomList>
+                      <rdf:first>
+                        <swrl:IndividualPropertyAtom>
+                          <swrl:propertyPredicate rdf:resource="#is_Explained_By"/>
+                          <swrl:argument1 rdf:resource="#x1"/>
+                          <swrl:argument2 rdf:resource="#f1"/>
+                        </swrl:IndividualPropertyAtom>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </swrl:AtomList>
+                  </rdf:rest>
+                </swrl:AtomList>
+              </rdf:rest>
+            </swrl:AtomList>
+          </rdf:rest>
+        </swrl:AtomList>
+      </rdf:rest>
+    </swrl:AtomList>
+  </swrl:body>
+  <swrl:head>
+    <swrl:AtomList>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#has_Limb1"/>
+          <swrl:argument1 rdf:resource="#f1"/>
+          <swrl:argument2 rdf:resource="#st1"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </swrl:AtomList>
+  </swrl:head>
+  <swrl2:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl2:isRuleEnabled>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if the anomaly is expalined by a fold the part related by the anomaly represent the fold structural paramters</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+</swrl:Imp>
+
+
+</rdf:RDF>
