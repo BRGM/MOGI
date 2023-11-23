@@ -63,6 +63,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points"/>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis"/>
@@ -239,7 +245,9 @@
 
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Complex_Surface -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Complex_Surface"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Complex_Surface">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
