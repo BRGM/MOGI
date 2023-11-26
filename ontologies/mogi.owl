@@ -205,9 +205,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatchede_Shared_Side -->
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Shared_Side -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatchede_Shared_Side">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Shared_Side">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Unmatched_Shared_Side_Of"/>
     </owl:ObjectProperty>
     
