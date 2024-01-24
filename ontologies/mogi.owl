@@ -269,6 +269,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Anomaly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Anomaly">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Border -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Border"/>
@@ -292,6 +300,14 @@
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explaining_Object -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explaining_Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Fold -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Fold">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -676,6 +692,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldRepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldRepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Axis -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Axis">
@@ -729,6 +753,14 @@
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingExplainedObjectsAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingExplainedObjectsAnomaly">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
     </owl:Class>
     
