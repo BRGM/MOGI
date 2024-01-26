@@ -311,6 +311,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train"/>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Part -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Part"/>
@@ -726,6 +732,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldingTrainRepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldingTrainRepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
     </owl:Class>
     
 
