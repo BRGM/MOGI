@@ -10,6 +10,7 @@ dependencies:
 
   - numpy
   - pandas
+  - pykrige
   - matplotlib
   - scipy
   - jupyter
