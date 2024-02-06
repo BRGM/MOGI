@@ -2,7 +2,7 @@
 
 Authors: Imadeddine LAOUICI, Gautier LAURENT
 	
-Copyright (c) 2024 Imadeddine LAOUICI
+Copyright (c) 2024 Imadeddine LAOUICI, Gautier LAURENT
 License: Licence_CeCILL-B_V1
 
 Involved organisations: BRGM and ISTO
