@@ -71,6 +71,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Point -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Point"/>
+    
+
+
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points"/>
@@ -80,6 +86,12 @@
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Free_Side -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Free_Side"/>
     
 
 
@@ -202,6 +214,12 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Shared_Side">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Shared_Side_Of"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Start_Point -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Start_Point"/>
     
 
 
