@@ -8,6 +8,9 @@ The algorithm utilizes a unique interpretation formalism and incorporates
 a knowledge model encapsulated in the [mogi.owl](ontologies/mogi.owl) file (**Minimal Ontology for Geological Interpretation**). 
 This ontology serves as a foundation for **geological interpretation**,
 providing a structured and comprehensive framework for the algorithm's decision-making process.
+This repository is associated with a publication submitted to CaGeo journal under the title **knowledge driven modeling formalism to automatically interpret and construct geological models**. 
+The publication details the theory and the formalism behind the algorithm presented in this repository. 
+In the publication we use a simplified scenario to show how generally modelers construct geological surfaces using interpolation [**interpolation_based_scenario**](human_based_scenario/interpolation_based_scenario.ipynb).
 
 ## Getting Started
 
@@ -51,6 +54,9 @@ The repository includes the following files:
 * installation/mogi.yml: YML file specifying the required dependencies.
 * licence/Licence_CeCILL-B_V1.txt: The license file governing the usage and distribution of the algorithm.
 * licence/copyright.txt: The file containing copyrights of the developpers and institutions.
+* human_based_scenario/interpolation_based_scenario.ipynb: A notebook containing a script for building a geological surface using interpolation and expert interpretations.
+* inputs/sparse_data: a csv file containing intial inputs used in the demonstration of the proposed algorithm and in the human_based_scenario application.
+* inputs/sparse_data1 and  inputs/sparse_data2: two csv files containing additional inputs used in the human_based_scenario application to constrain interpolation.
 
 ## License
 
