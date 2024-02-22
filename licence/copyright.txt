@@ -7,20 +7,22 @@ License: Licence_CeCILL-B_V1
 
 Involved organisations: BRGM and ISTO
 
+Funding and projects:
+* 
 
 Details about contribution in the project : 
 
-*Imaddedine LAOUICI :
+* Imaddedine LAOUICI :
 	Conceived the original approach and developed the formal interpretation framework.
 	Developed and formalized the structured knowledge framework (ontology).
 	Contributed to the development of the Python code and Jupyter notebooks.
-*Gautier LAURENT :
+* Gautier LAURENT :
 	Proposed the original approach and initiated the research project.
 	Proposed the algorithm for iterative interpretation process.
 	Contributed to the development of the Python code and Jupyter notebooks.
-*Christelle LOISELET :
+* Christelle LOISELET :
 	Contributed to the original research project.
 	Contributed to the development of the approach, in particular by adding concepts of Geological Knowledge Framework and the use of web semantics.
-*Yannick BRANQUET :
+* Yannick BRANQUET :
 	Involved in piloting the approach and its testing.
 
