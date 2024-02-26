@@ -1,9 +1,9 @@
-name: mogi	# Choose a name for your environment
+name: mogi # Choose a name for your environment
 
 channels:
   - defaults
   - conda-forge  
-  - conda  # You can add additional channels if needed
+  - conda # You can add additional channels if needed
 
 dependencies:
   - python=3.10.9
