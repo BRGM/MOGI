@@ -18,6 +18,7 @@ Follow these steps to start using the algorithm:
 
 ### Clone the Repository:
 Clone this repository from GitHub or download the ZIP master of the repository on your machine:
+
     git clone https://github.com/BRGM/MOGI.git
 
 ### Create Environment:
@@ -27,17 +28,20 @@ For the code to work properly, your python environment needs the packages listed
 
 We recommend creating a new environment to avoid conflicts. The following command should create an appropriate environment and call it **mogi** 
 Navigate to the repository directory and create a virtual environment by using the [mogi.yml](installation/mogi.yml) file:
+
     conda env create -f installation/mogi.yml
 
 Alternatively, make sure all the necessary packages are installed by checking the [mogi.yml](installation/mogi.yml) file.
 
 ### Activate Environment:
 Each time you want to use this code you need to activate the **mogi** environement (including just after creating it the first time).
+
     conda activate mogi
 
 ### Launch Demo Notebook:
 
 Open the provided [demo jupyter notebook](notebooks/00_demo_mogi.ipynb) to start working with the algorithm.
+
     jupyter notebook demo.ipynb
 
 To avoid packaging complexity for this first proof of concept, all the working code is included in the notebook.
