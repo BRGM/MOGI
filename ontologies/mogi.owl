@@ -1,0 +1,1139 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#"
+     xml:base="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-179="http://www.semanticweb.org/ilaouici/ontologies/2022/5/untitled-ontology-179#"
+     xmlns:untitled-ontology-542="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#explain">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Axial_Surface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Axial_Surface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Center -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Center"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Corresponding_Part -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Corresponding_Part">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Point -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_End_Points"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Fold_Axis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Free_Side -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Free_Side"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb1">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb1_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb2">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb2_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Neighbor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Neighbor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Next_Nodes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Next_Nodes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Normal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Normal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Observation_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Occurrence_Space -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Occurrence_Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Part -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Part">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Part_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Previous_Nodes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Previous_Nodes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Property">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Property_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Representation_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Shared_Side -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Shared_Side">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Shared_Side_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Start_Point -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Start_Point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Neighbor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Neighbor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Shared_Side -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Unmatched_Shared_Side">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Unmatched_Shared_Side_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb1_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb1_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb2_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Limb2_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Observation_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Observation_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Part_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Part_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Property_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Property_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Anomaly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Anomaly">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Border -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Border"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Complex_Surface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Complex_Surface">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explained_Object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explained_Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explaining_Object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Explaining_Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Fold -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Fold">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Part -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Part"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Representation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Representation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Representation_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Representation_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Shared_Side_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Shared_Side_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Structural_Parameter_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Structural_Parameter_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Unmatched_Shared_Side_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Unmatched_Shared_Side_Of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord1_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord2_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coord3_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_label">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#coordinate_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#deformed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#dip_dir">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#extended -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#extended">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#influence_space">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#non_planar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#non_planar">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#occurrence">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#polarity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#polarity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#orientation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#size">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#property"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Interpretation_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Structural_Paramter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Planar_Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DipVariationAnomaly"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Axial_Surface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Axial_Surface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Axis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb1"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb2"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfaceNeighborNumberAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfaceNeighborNumberAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfacePlanarAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfacePlanarAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfaceSizeSharedSidesAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ComplexSurfaceSizeSharedSidesAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Complex_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Complex_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Part"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Planar_Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DipVariationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DipVariationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DippingStratigraphyAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DippingStratigraphyAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DiscontinuousStratigraphyAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#DiscontinuousStratigraphyAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ExplanationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#ExplanationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldRepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldRepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldTrainRepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#FoldTrainRepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Axis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Structural_Paramter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Vector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Limb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Train -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Train">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Folding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Setting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#InternalDipVariationAnomalyMultiParts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#InternalDipVariationAnomalyMultiParts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold_Train"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#InternalDipVariationAnomalyTwoParts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#InternalDipVariationAnomalyTwoParts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Chevron_Fold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Interpretation_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Interpretation_Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#LimbsPolarityAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingExplainedObjectsAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingExplainedObjectsAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingRepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#MissingRepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Planar_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Planar_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PointBased_Observation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Axial_Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Observable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Point"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PolarityAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#PolarityAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#RepresentationAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#RepresentationAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#SharedSideNotParallelAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#SharedSideNotParallelAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Side -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Side">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Possible_Explanation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Observation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Possible_Explanation_Of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Representation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Complex_Surface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#StratigraphyBorderAnomaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#StratigraphyBorderAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Structural_Paramter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Structural_Paramter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Geological_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Vector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Vector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Representation_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#st1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#f1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if the anomaly is expalined by a fold the part related by the anomaly represent the fold structural paramters</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Anomaly"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Stratigraphic_Part"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#st1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#st1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#Fold"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#f1"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Explained_By"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#x1"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#f1"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#has_Limb1"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#f1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#st1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
