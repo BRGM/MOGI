@@ -343,7 +343,9 @@
 
     <!-- http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ilaouici/ontologies/2023/6/untitled-ontology-542#is_Related_To_Folding_Train">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
