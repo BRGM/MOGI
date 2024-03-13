@@ -6,7 +6,7 @@ channels:
   - conda # You can add additional channels if needed
 
 dependencies:
-  - python=3.10.9
+  - python=3.10
 
   - numpy
   - pandas
@@ -16,4 +16,5 @@ dependencies:
   - jupyter
   - owlready2
   - pyvista
+  - trame
 
